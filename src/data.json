@@ -1,0 +1,183 @@
+[
+    {
+      "title": "Product Designer",
+      "company": "MetaMask",
+      "type": "Full Time",
+      "levelOfExperience": "Entry Level",
+      "location": "Remote",
+      "description": "Doing the right thing for investors is what we're all about at Vanguard...",
+      "salary": 25000
+    },
+    {
+      "title": "Sr. UX Designer",
+      "company": "Netflix",
+      "type": "Part Time",
+      "levelOfExperience": "Senior",
+      "location": "Remote",
+      "description": "Netflix is one of the world's leading streaming entertainment service...",
+      "salary": 195000
+    },
+    {
+      "title": "Backend Developer",
+      "company": "Google",
+      "type": "Full Time",
+      "levelOfExperience": "Intermediate",
+      "location": "Mountain View, CA",
+      "description": "CoalFire is on a mission to make the world a safer place by solving our clients' toughest security challenges...",
+      "salary": 120000
+    },
+    {
+      "title": "SMM Manager",
+      "company": "Spotify",
+      "type": "Internship",
+      "levelOfExperience": "Student",
+      "location": "New York, NY",
+      "description": "Join us as we increase access to banking and financial services, helping banks and credit unions build digital products...",
+      "salary": 10000
+    },
+    {
+      "title": "Product Designer",
+      "company": "Reddit",
+      "type": "Full Time",
+      "levelOfExperience": "Senior",
+      "location": "San Francisco, CA",
+      "description": "Prelim is how banks onboard their customers for business checking accounts...",
+      "salary": 150000
+    },
+    {
+      "title": "Frontend Developer",
+      "company": "Amazon",
+      "type": "Part Time",
+      "levelOfExperience": "Entry Level",
+      "location": "Seattle, WA",
+      "description": "Amazon is looking for a passionate frontend developer to help build innovative experiences...",
+      "salary": 50000
+    },
+    {
+      "title": "Data Scientist",
+      "company": "Facebook",
+      "type": "Full Time",
+      "levelOfExperience": "Senior",
+      "location": "Menlo Park, CA",
+      "description": "As a data scientist at Facebook, you'll be responsible for analyzing large datasets to drive product decisions...",
+      "salary": 180000
+    },
+    {
+      "title": "Mobile Developer",
+      "company": "Snapchat",
+      "type": "Full Time",
+      "levelOfExperience": "Intermediate",
+      "location": "Los Angeles, CA",
+      "description": "Snapchat is seeking a talented mobile developer to join our team and create engaging experiences for our users...",
+      "salary": 130000
+    },
+    {
+      "title": "DevOps Engineer",
+      "company": "Microsoft",
+      "type": "Part Time",
+      "levelOfExperience": "Senior",
+      "location": "Redmond, WA",
+      "description": "Microsoft is looking for an experienced DevOps engineer to streamline our CI/CD processes...",
+      "salary": 95000
+    },
+    {
+      "title": "Security Analyst",
+      "company": "Cisco",
+      "type": "Full Time",
+      "levelOfExperience": "Intermediate",
+      "location": "San Jose, CA",
+      "description": "As a security analyst at Cisco, you'll help protect our network and ensure the security of our systems...",
+      "salary": 75000
+    },
+    {
+      "title": "Machine Learning Engineer",
+      "company": "OpenAI",
+      "type": "Full Time",
+      "levelOfExperience": "Senior",
+      "location": "San Francisco, CA",
+      "description": "OpenAI is seeking a machine learning engineer to develop cutting-edge AI models...",
+      "salary": 200000
+    },
+    {
+      "title": "Cloud Architect",
+      "company": "IBM",
+      "type": "Full Time",
+      "levelOfExperience": "Senior",
+      "location": "Austin, TX",
+      "description": "IBM is looking for a cloud architect to design and implement scalable cloud solutions...",
+      "salary": 150000
+    },
+    {
+      "title": "Software Engineer",
+      "company": "LinkedIn",
+      "type": "Full Time",
+      "levelOfExperience": "Intermediate",
+      "location": "Sunnyvale, CA",
+      "description": "LinkedIn is seeking a software engineer to join our team and build robust applications...",
+      "salary": 110000
+    },
+    {
+      "title": "Product Manager",
+      "company": "Twitter",
+      "type": "Full Time",
+      "levelOfExperience": "Senior",
+      "location": "San Francisco, CA",
+      "description": "Twitter is looking for a product manager to drive product strategy and execution...",
+      "salary": 160000
+    },
+    {
+      "title": "UI Designer",
+      "company": "Pinterest",
+      "type": "Full Time",
+      "levelOfExperience": "Entry Level",
+      "location": "San Francisco, CA",
+      "description": "Pinterest is seeking a creative UI designer to craft beautiful and intuitive user interfaces...",
+      "salary": 70000
+    },
+    {
+      "title": "Systems Administrator",
+      "company": "Dropbox",
+      "type": "Full Time",
+      "levelOfExperience": "Intermediate",
+      "location": "Remote",
+      "description": "Dropbox is looking for a systems administrator to manage and maintain our IT infrastructure...",
+      "salary": 90000
+    },
+    {
+      "title": "AI Researcher",
+      "company": "DeepMind",
+      "type": "Full Time",
+      "levelOfExperience": "Senior",
+      "location": "London, UK",
+      "description": "DeepMind is seeking an AI researcher to contribute to groundbreaking AI research...",
+      "salary": 200000
+    },
+    {
+      "title": "Tech Lead",
+      "company": "Stripe",
+      "type": "Full Time",
+      "levelOfExperience": "Senior",
+      "location": "Dublin, Ireland",
+      "description": "Stripe is looking for a tech lead to oversee the development of our payment processing systems...",
+      "salary": 150000
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "Square",
+      "type": "Full Time",
+      "levelOfExperience": "Intermediate",
+      "location": "San Francisco, CA",
+      "description": "Square is seeking a full stack developer to build and maintain our ecommerce platform...",
+      "salary": 100000
+    },
+    {
+      "title": "Business Analyst",
+      "company": "Adobe",
+      "type": "Full Time",
+      "levelOfExperience": "Intermediate",
+      "location": "San Jose, CA",
+      "description": "Adobe is looking for a business analyst to analyze market trends and business performance...",
+      "salary": 90000
+    }
+  ]
+  
