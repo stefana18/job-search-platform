@@ -1,6 +1,6 @@
 #TODO list
 
-- de implementat filtrarile pentru joburi
+- de implementat filtrarile pentru joburi (done)
 - CSS pentru Search Bar (done)
 - de implementat cautarea (done)
 - CSS pentru filtrare

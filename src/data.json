@@ -2,8 +2,8 @@
     {
       "title": "Product Designer",
       "company": "MetaMask",
-      "type": "Full Time",
-      "levelOfExperience": "Entry Level",
+      "type": "Full-time",
+      "levelOfExperience": "Entry-level",
       "location": "Remote",
       "description": "Doing the right thing for investors is what we're all about at Vanguard...",
       "salary": 25000
@@ -11,7 +11,7 @@
     {
       "title": "Sr. UX Designer",
       "company": "Netflix",
-      "type": "Part Time",
+      "type": "Part-time",
       "levelOfExperience": "Senior",
       "location": "Remote",
       "description": "Netflix is one of the world's leading streaming entertainment service...",
@@ -20,7 +20,7 @@
     {
       "title": "Backend Developer",
       "company": "Google",
-      "type": "Full Time",
+      "type": "Full-time",
       "levelOfExperience": "Intermediate",
       "location": "Mountain View, CA",
       "description": "CoalFire is on a mission to make the world a safer place by solving our clients' toughest security challenges...",
@@ -33,12 +33,12 @@
       "levelOfExperience": "Student",
       "location": "New York, NY",
       "description": "Join us as we increase access to banking and financial services, helping banks and credit unions build digital products...",
-      "salary": 10000
+      "salary": 1000
     },
     {
       "title": "Product Designer",
       "company": "Reddit",
-      "type": "Full Time",
+      "type": "Full-time",
       "levelOfExperience": "Senior",
       "location": "San Francisco, CA",
       "description": "Prelim is how banks onboard their customers for business checking accounts...",
@@ -47,8 +47,8 @@
     {
       "title": "Frontend Developer",
       "company": "Amazon",
-      "type": "Part Time",
-      "levelOfExperience": "Entry Level",
+      "type": "Part-time",
+      "levelOfExperience": "Entry-level",
       "location": "Seattle, WA",
       "description": "Amazon is looking for a passionate frontend developer to help build innovative experiences...",
       "salary": 50000
@@ -56,7 +56,7 @@
     {
       "title": "Data Scientist",
       "company": "Facebook",
-      "type": "Full Time",
+      "type": "Full-time",
       "levelOfExperience": "Senior",
       "location": "Menlo Park, CA",
       "description": "As a data scientist at Facebook, you'll be responsible for analyzing large datasets to drive product decisions...",
@@ -65,7 +65,7 @@
     {
       "title": "Mobile Developer",
       "company": "Snapchat",
-      "type": "Full Time",
+      "type": "Full-time",
       "levelOfExperience": "Intermediate",
       "location": "Los Angeles, CA",
       "description": "Snapchat is seeking a talented mobile developer to join our team and create engaging experiences for our users...",
@@ -74,7 +74,7 @@
     {
       "title": "DevOps Engineer",
       "company": "Microsoft",
-      "type": "Part Time",
+      "type": "Part-time",
       "levelOfExperience": "Senior",
       "location": "Redmond, WA",
       "description": "Microsoft is looking for an experienced DevOps engineer to streamline our CI/CD processes...",
@@ -83,7 +83,7 @@
     {
       "title": "Security Analyst",
       "company": "Cisco",
-      "type": "Full Time",
+      "type": "Full-time",
       "levelOfExperience": "Intermediate",
       "location": "San Jose, CA",
       "description": "As a security analyst at Cisco, you'll help protect our network and ensure the security of our systems...",
@@ -92,7 +92,7 @@
     {
       "title": "Machine Learning Engineer",
       "company": "OpenAI",
-      "type": "Full Time",
+      "type": "Full-time",
       "levelOfExperience": "Senior",
       "location": "San Francisco, CA",
       "description": "OpenAI is seeking a machine learning engineer to develop cutting-edge AI models...",
@@ -101,7 +101,7 @@
     {
       "title": "Cloud Architect",
       "company": "IBM",
-      "type": "Full Time",
+      "type": "Full-time",
       "levelOfExperience": "Senior",
       "location": "Austin, TX",
       "description": "IBM is looking for a cloud architect to design and implement scalable cloud solutions...",
@@ -110,7 +110,7 @@
     {
       "title": "Software Engineer",
       "company": "LinkedIn",
-      "type": "Full Time",
+      "type": "Full-time",
       "levelOfExperience": "Intermediate",
       "location": "Sunnyvale, CA",
       "description": "LinkedIn is seeking a software engineer to join our team and build robust applications...",
@@ -119,7 +119,7 @@
     {
       "title": "Product Manager",
       "company": "Twitter",
-      "type": "Full Time",
+      "type": "Full-time",
       "levelOfExperience": "Senior",
       "location": "San Francisco, CA",
       "description": "Twitter is looking for a product manager to drive product strategy and execution...",
@@ -128,8 +128,8 @@
     {
       "title": "UI Designer",
       "company": "Pinterest",
-      "type": "Full Time",
-      "levelOfExperience": "Entry Level",
+      "type": "Full-time",
+      "levelOfExperience": "Entry-level",
       "location": "San Francisco, CA",
       "description": "Pinterest is seeking a creative UI designer to craft beautiful and intuitive user interfaces...",
       "salary": 70000
@@ -137,7 +137,7 @@
     {
       "title": "Systems Administrator",
       "company": "Dropbox",
-      "type": "Full Time",
+      "type": "Full-time",
       "levelOfExperience": "Intermediate",
       "location": "Remote",
       "description": "Dropbox is looking for a systems administrator to manage and maintain our IT infrastructure...",
@@ -146,7 +146,7 @@
     {
       "title": "AI Researcher",
       "company": "DeepMind",
-      "type": "Full Time",
+      "type": "Full-time",
       "levelOfExperience": "Senior",
       "location": "London, UK",
       "description": "DeepMind is seeking an AI researcher to contribute to groundbreaking AI research...",
@@ -155,7 +155,7 @@
     {
       "title": "Tech Lead",
       "company": "Stripe",
-      "type": "Full Time",
+      "type": "Full-time",
       "levelOfExperience": "Senior",
       "location": "Dublin, Ireland",
       "description": "Stripe is looking for a tech lead to oversee the development of our payment processing systems...",
@@ -164,7 +164,7 @@
     {
       "title": "Full Stack Developer",
       "company": "Square",
-      "type": "Full Time",
+      "type": "Full-time",
       "levelOfExperience": "Intermediate",
       "location": "San Francisco, CA",
       "description": "Square is seeking a full stack developer to build and maintain our ecommerce platform...",
@@ -173,7 +173,7 @@
     {
       "title": "Business Analyst",
       "company": "Adobe",
-      "type": "Full Time",
+      "type": "Full-time",
       "levelOfExperience": "Intermediate",
       "location": "San Jose, CA",
       "description": "Adobe is looking for a business analyst to analyze market trends and business performance...",
