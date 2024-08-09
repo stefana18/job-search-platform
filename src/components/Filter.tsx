@@ -37,8 +37,8 @@ export default function Filter({onFilterChange}: FilterProps) {
         setExperienceLevels((prev) => prev.includes(value) ? prev.filter((level) => level !== value) : [...prev, value]);
     };
 
-    const handleSalaryRangeChange = (value: number) => {
-        setSalaryRange([MIN_SALARY, value]);
+    const handleSalaryRangeChange = (value: [number, number]) => {
+        setSalaryRange(value);
     }
 
     const handleSearch = () => {
@@ -51,32 +51,36 @@ export default function Filter({onFilterChange}: FilterProps) {
 
     return (
         <div className="filter">
+            <h1>Filter Jobs</h1>
             <div className="filter-group">
-                <h3>Job Type</h3>
+                <h3 className="filter-type">Job Type</h3>
+                <div className="separator-filter"></div>
                 <label><input type="checkbox" value="Full-time" onChange={handleJobTypeChange}/> Full time</label>
                 <label><input type="checkbox" value="Part-time" onChange={handleJobTypeChange}/> Part time</label>
                 <label><input type="checkbox" value="Internship" onChange={handleJobTypeChange}/> Internship</label>
             </div>
             <div className="filter-group">
-                <h3>Salary range</h3>
+                <h3 className="filter-type">Salary Range</h3>
+                <div className="separator-filter"></div>
                 <div className="range-slider">
                 <RangeSlider
                         min={MIN_SALARY}
                         max={MAX_SALARY}
-                        value={MAX_SALARY}
+                        value={salaryRange}
                         step={1000}
                         onChange={handleSalaryRangeChange}
                     />
                 </div>
             </div>
             <div className="filter-group">
-                <h3>Experience Level</h3>
+                <h3 className="filter-type">Experience Level</h3>
+                <div className="separator-filter"></div>
                 <label><input type="checkbox" value="Entry-level" onChange={handleExperienceLevelChange}/> Entry level</label>
                 <label><input type="checkbox" value="Intermediate" onChange={handleExperienceLevelChange}/> Intermediate</label>
                 <label><input type="checkbox" value="Senior" onChange={handleExperienceLevelChange}/> Senior</label>
                 <label><input type="checkbox" value="Student" onChange={handleExperienceLevelChange}/> Student</label>
             </div>
-            <button className="search-button" onClick={handleSearch}>Search</button>
+            <button className="search-button-filter" onClick={handleSearch}>Search</button>
         </div>
     )
 }

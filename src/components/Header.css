@@ -1,22 +1,31 @@
 .header {
+    position: fixed;
+    top: 0;
+    left: -20px;
+    width: 100%;
+    z-index: 10000;
     background-color: #000;
     background-image: url("../assets/background-image.jpg");
     padding: 20px;
-    margin: 0px;
+    height: 170px;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
 }
 
 .header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
     width: 100%;
     margin-bottom: 20px;
 }
 
-.header h1 {
+.header-content h1 {
     margin: 10px 10px;
+    font-weight: 100;
 }

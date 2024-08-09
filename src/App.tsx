@@ -65,11 +65,9 @@ function App() {
         onTitleChange={handleSearchTitleChange}
         onLocationChange={handleSearchLocationChange}/>
         <div className="container">
-        <h1>Recommended jobs</h1>
-        <Filter onFilterChange={handleFilterChange}/>
-
-        <JobList jobs={filteredJobs}/>
-    </div>
+          <Filter onFilterChange={handleFilterChange}/>
+          <JobList jobs={filteredJobs}/>
+        </div>
       </main>
     </>
   )

@@ -4,80 +4,84 @@ import "./Filter.css"
 type RangeSliderProps = {
     min: number;
     max: number;
-    value: number;
+    value: [number, number];
     step: number;
-    onChange: (value: number) => void;
+    onChange: (value: [number, number]) => void;
 }
 
 export default function RangeSlider({min, max, value, step, onChange}: RangeSliderProps){
-    const [sliderRange, setSliderRange] = useState(value);
-    const [inputValue, setInputValue] = useState(value);
-    const sliderRef = useRef<HTMLInputElement>(null);
+    const [minValue, setMinValue] = useState(value[0]);
+    const [maxValue, setMaxValue] = useState(value[1]);
+    
+    const sliderRefMin = useRef<HTMLInputElement>(null);
+    const sliderRefMax = useRef<HTMLInputElement>(null);
 
     function handleSliderInput() {
-        const range = max - min;
-        const distance = sliderRef.current!.valueAsNumber - min;
-        const percentage = (distance /range) * 100;
-        setSliderRange(percentage);
-        setInputValue(sliderRef.current!.valueAsNumber);
-        onChange(sliderRef.current!.valueAsNumber);
-    }
+        if (sliderRefMin.current && sliderRefMax.current) {
+            const newMinValue = Math.min(sliderRefMin.current.valueAsNumber, maxValue - step);
+            const newMaxValue = Math.max(sliderRefMax.current!.valueAsNumber, minValue + step);
 
-    function handleNumberInput(e:  React.ChangeEvent<HTMLInputElement>) {
-        const newValue = parseInt(e.target.value);
+            setMinValue(newMinValue);
+            setMaxValue(newMaxValue);
 
-        if(newValue < min) {
-            setInputValue(min);
-            setSliderRange(1000);
-        }
-        else if(newValue > max) {
-            setInputValue(max);
-            setSliderRange(200000);
-        } else {
-            setInputValue(newValue);
-
-            const range= max-min;
-            const distance = newValue - min;
-            const percentage = (distance / range) * 100;
-            setSliderRange(percentage);
+            onChange([newMinValue, newMaxValue]);
         }
     }
 
+   
     useEffect(()=> {
         handleSliderInput();
-    }, [sliderRef]);
+    }, [sliderRefMin, sliderRefMax]);
 
     return (
         <div className="range-slider">
             <div className="slider-values">
-                <small>{min}</small>
                 <input 
                 type="number" 
-                value={inputValue}
-                onInput={handleNumberInput}
-                min={min} max={max}
+                value={minValue}
+                onInput={ (e) => {
+                    const newMin = Math.max(parseInt((e.target as HTMLInputElement).value), min);
+                    setMinValue(newMin);
+                    onChange([newMin, maxValue]);
+                }}
+                min={min} 
+                max={maxValue - step}
                 step={step}
                 className="number-input"/>
-                <small>{max}</small>
+                <input
+                    type="number"
+                    value={maxValue}
+                    onInput={(e) => {
+                        const newMax = Math.min(parseInt((e.target as HTMLInputElement).value), max);
+                        setMaxValue(newMax);
+                        onChange([minValue, newMax]);
+                    }}
+                    min={minValue + step}
+                    max={max}
+                    step={step}
+                    className="number-input"
+                />
             </div>
             <div className="slider-container">
                 <input 
                 type="range"
                 onInput={handleSliderInput}
-                value={inputValue}
+                value={minValue}
                 min={min}
                 max={max}
-                ref={sliderRef}
+                ref={sliderRefMin}
                 step={step}
                 className="slider"/>
-                <div 
-                className="slider-thumb"
-                style={{left: `calc(${sliderRange}% - 0.5em)`}}
-                ></div>
-                <div 
-                className="progress"
-                style={{ width: `${sliderRange}%`}}
-                ></div>
+               <input
+               type="range"
+               onInput={handleSliderInput}
+               value={maxValue}
+               min={min}
+               max={max}
+               ref={sliderRefMax}
+               step={step}
+               className="slider"/>
+               <div className="progress" style={{ left: `${((minValue - min) / (max - min)) * 100}%`, width: `${((maxValue - minValue) / (max - min)) * 100}%`}}></div>
             </div>
         </div>
     )

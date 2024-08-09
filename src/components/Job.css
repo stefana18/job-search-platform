@@ -22,24 +22,59 @@
 }
 
 .job-header h3 {
-    text-decoration-thickness: 100px;
     color: #007bff;
+    font-weight: 100;
+
+}
+
+.job-header span {
+    font-weight: 100;
+
+
 }
 
 .job-details {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 10px 0;
 }
 
-.job-experience, .job-location {
+.job-experience, .job-location, .job-type {
     background-color: #e0e0e0;
     border-radius: 5px;
     padding: 5px 10px;
+    margin: 10px;
+    height: auto;
+    text-align: center;
 }
 
+.job-experience {
+    background-color: hsl(270, 93%, 94%);
+    color: hsl(271, 70%, 36%);
+}
+
+.job-location {
+    background-color: hsl(148, 100%, 95%);
+    color: hsl(148, 77%, 25%);
+    
+}
+
+.job-type {
+    background-color: hsl(21, 100%, 95%);
+    color: hsl(21, 79%, 46%);
+}
 .job-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+
+.separator-job {
+    height: 1px;
+    width: 300px;
+    background-color: #ccc;
+    margin-bottom: 10px;
+
 }

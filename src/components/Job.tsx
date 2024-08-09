@@ -20,9 +20,10 @@ export default function Job({title, type, company, levelOfExperience, location, 
             <div className="job-details">
                 <span className="job-type">{type}</span>
                 <span className="job-experience">{levelOfExperience}</span>
-                <span className="job-item-location">{location}</span>
+                <span className="job-location">{location}</span>
             </div>
             <p>{description}</p>
+            <div className="separator-job"></div>
             <div className="job-footer">
                 <span>${salary}/year</span>
             </div>
